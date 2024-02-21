@@ -1,5 +1,7 @@
 # Installation and pre-requisites
 
+It is highly advisable that if you are using Windows, you should consider creating a Virtual Machine for the course.
+
 ## Arduino IDE
 
 Arduino IDE is the primary IDE for Arduino MCUs. The IDE also provides support for a lot of other non-Arduino boards as well, with the same consistent environment across all the boards.
@@ -76,3 +78,7 @@ Make sure you have Apple Rosetta 2 installed and enabled (if M1 chip).
 ```shell
 $ brew install ccache cmake ninja dfu-util
 ```
+
+## OPTIONAL:
+
+If you are super comfortable with VSCode, and don't want to shift to the Arduino IDE, then there's another option called "PlatformIO". It provides an Arduino like framework for a majority of MCUs, and integrates well with VSCode. Find out more about PlatformIO  at [https://docs.platformio.org/en/latest/what-is-platformio.html]().

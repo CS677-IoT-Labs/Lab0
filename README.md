@@ -22,7 +22,7 @@ The installation guide from the docs provides an excellent tutorial on how to ge
 $ sudo add-apt-repository universe
 $ sudo apt update
 $ sudo apt install libfuse2  # libfc is a dependency
-$ wget https://downloads.arduino.cc/arduino-ide/arduinoide_2.3.2_Linux_64bit.AppImage -o /tmp/arduino
+# download the appimage. assuming the file is downloaded as /tmp/arduino.
 $ sudo chmod +x /tmp/arduino  # make the appimage executable
 $ mv /tmp/arduino /usr/local/bin
 $ arduino       # assuming /usr/local/bin is on the PATH. IDE should be launched
